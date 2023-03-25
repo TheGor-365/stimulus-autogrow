@@ -3,6 +3,7 @@
 // ./bin/rails generate stimulus controllerName
 
 import { application } from "./application"
+import TextareaAutogrow from 'stimulus-textarea-autogrow'
 
-import HelloController from "./hello_controller"
-application.register("hello", HelloController)
+// const application = Application.start()
+application.register('textarea-autogrow', TextareaAutogrow)
